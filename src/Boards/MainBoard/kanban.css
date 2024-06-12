@@ -1,0 +1,121 @@
+.kanban-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    /* margin-left: 5rem; */
+}
+.kanban-container .btn-add-board{
+    align-self: flex-end;
+}
+.board-list{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+.board-list .board-item{
+    flex-basis: 350px;
+    flex-shrink: 0;
+
+}
+.column-container{
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    background-color: rgb(231, 231, 231);
+    border-radius: 8px;
+}
+.column-header{
+    /* font-size: 1.6rem; */
+    font-weight: 500;
+    color: rgb(95, 96, 97);
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.board__title span{
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+}
+.btn-edit-cardTitle svg{
+    width: 1.7rem;
+}
+.jobs-container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-block: 2rem;
+}
+
+
+.task-card:hover{
+    box-shadow: 0 0 9px -2px #cfcfcf;
+}
+.task-card:hover .task-owner{
+    color: #467cd2;
+}
+.task-card .address{
+    /* font-size: 1.3rem; */
+    font-weight: 400;
+    color: rgb(40, 55, 62);
+}
+.task-card .badge{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.task-card .bg-primary{
+    background-color: rgb(131 180 222 / 27%) !important;
+    color: #0e6efd;
+}
+.task-card .task-owner{
+    /* font-size: 1.6rem; */
+    font-weight: 500;
+    color: rgb(40, 55, 62);
+}
+.task-card-footer{
+    font-size: 1.2rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1rem !important;
+    background-color: rgb(250, 251, 251) !important;
+    border-top: 1px solid #efeaea !important;
+}
+.task-card-footer .profile-text-box{
+    background-color: #edf0f2;
+    border-radius: 50%;
+    width: 20px;
+    display: inline-flex;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(71, 72, 73);
+}
+
+
+.btn-add{
+    align-self: flex-start;
+    font-size: 1.5rem !important;
+    background-color: #ebeef0 !important;
+    border: none !important;
+    color: #222 !important;
+    padding-inline: 0.6rem !important;
+    padding-block: 0rem !important;
+}
+
+
+
+.newJobModal .form-label{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.jobdetailmodel .modal-content{
+padding-top: 1rem;
+}
